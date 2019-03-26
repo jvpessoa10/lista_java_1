@@ -23,7 +23,7 @@ public class exercicio_3 {
 				3.0,
 				"kg",
 				3.2,
-				"f",
+				"c",
 				2
 			);
 		

@@ -24,18 +24,21 @@ public class exercicio_1 {
 		double output= 0;
 		
 		switch(op) {
-		case '+':
-			output = calc.somar(a, b);
-			break;
-		case '-':
-			output = calc.subtrair(a, b);
-			break;
-		case '*':
-			output = calc.multiplicar(a, b);
-			break;
-		case '/':
-			output = calc.dividir(a, b);
-			break;
+			case '+':
+				output = calc.somar(a, b);
+				break;
+			case '-':
+				output = calc.subtrair(a, b);
+				break;
+			case '*':
+				output = calc.multiplicar(a, b);
+				break;
+			case '/':
+				output = calc.dividir(a, b);
+				break;
+
+			default:
+				throw new IllegalArgumentException();
 		}
 		
 		System.out.println("RESULTADO: " + String.valueOf(output));

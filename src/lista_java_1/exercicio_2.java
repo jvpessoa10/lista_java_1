@@ -21,7 +21,7 @@ public class exercicio_2 {
 		
 		Comparador comparador = new Comparador(a, b, c);
 		
-		System.out.println("RESULTADO:"+ String.valueOf(comparador.getMaior()));
+		System.out.println("RESULTADO:"+ comparador.getMaior());
 		
 		
 		

@@ -2,6 +2,8 @@ package utils;
 
 public class Estatistica {
 	private int  maiorValor;
+
+
 	
 	public Estatistica(int maiorValor) {
 		this.maiorValor = maiorValor;
@@ -38,7 +40,7 @@ public class Estatistica {
 		int i = 1;
 		
 		do {
-			System.out.println(i +" é " +((i%2 == 0)?"par":"impar"));
+			System.out.println(i +" Ã© " +((i%2 == 0)?"par":"impar"));
 			
 			i++;
 		}while(i<=this.maiorValor);
