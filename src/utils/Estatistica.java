@@ -22,10 +22,21 @@ public class Estatistica {
 	
 	public double media() {
 		double result = 0.0;
-		
-		result = somatorio()/this.maiorValor;
-		
+
+		//forma correta:
+		//result = somatorio()/this.maiorValor;
+		int i=0;
+		int sum= 0;
+		while(i<=maiorValor){
+			sum +=i;
+
+			i++;
+		}
+
+		result = sum/this.maiorValor;
+
 		return result;
+
 	}
 	
 	
